@@ -2,3 +2,6 @@
 
 ## Thirteenth (13) Portfolio Project: Automating Google Dinosaur Game
  - #### I will be automating game at [dinasour game](https://elgoog.im/dinosaur-game/) using Python and Pyautogui library. Since game directly on chrome can only be accessed when network is down.
+
+## Some Notes:
+ - You may have to adjust some parameters according to your screen size.
