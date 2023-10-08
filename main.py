@@ -59,7 +59,7 @@ def main():
 
     left = region.left + region.width + 10
     top = region.top
-    width = region.width * 3.5
+    width = region.width * 3.3
     height = region.height * 2 - 20
 
     while True:
