@@ -24,10 +24,11 @@ def start_game():
 def detect_obstacle(left, top, width, height):
     im = pyautogui.screenshot(region=(left, top, width, height))
     obstacle_color = 0
+    background_color = 0
     for pixel in im.getdata():
         if obstacle_color > 20:
             return True
-        if pixel == (83, 83, 83):
+        if pixel == (83, 83, 83) or pixel == (172, 172, 172):
             obstacle_color += 1
     return False
 
